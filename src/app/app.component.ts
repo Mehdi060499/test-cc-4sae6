@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mehdikallel';
+  person : String ='mehdi' ;
+  age : Number = 25;
+  address : any = {street: 'rue du ...',city:'Ben Arous'};
+  hide: boolean = false;
+  activated: boolean = false;
+  getEmail() {
+    return this.person +'@gmail.com';
+  }
+
 }
